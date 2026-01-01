@@ -5,7 +5,7 @@ using PortfolioWebsiteBackend.Services;
 namespace PortfolioWebsiteBackend.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/projects")]
     public class ProjectsController : ControllerBase
     {
         private readonly IProjectService _projectService;
