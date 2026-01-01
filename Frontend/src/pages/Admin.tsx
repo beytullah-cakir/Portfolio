@@ -17,7 +17,7 @@ export default function Admin() {
 
     try {
       const apiUrl =
-        import.meta.env.VITE_API_BASE_URL || "http://localhost:5055/api";
+        import.meta.env.VITE_API_BASE_URL || "http://localhost:5055";
       const response = await fetch(`${apiUrl}/api/projects`, {
         method: "POST",
         headers: {

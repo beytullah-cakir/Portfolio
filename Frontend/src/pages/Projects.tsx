@@ -17,7 +17,7 @@ export default function ProjectsPage() {
     const fetchProjects = async () => {
       try {
         const apiUrl =
-          import.meta.env.VITE_API_BASE_URL || "http://localhost:5055/api";
+          import.meta.env.VITE_API_BASE_URL || "http://localhost:5055";
         const response = await fetch(`${apiUrl}/api/projects`);
         if (response.ok) {
           const data = await response.json();
