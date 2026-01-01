@@ -45,6 +45,7 @@ namespace PortfolioWebsiteBackend.Services
             existingProject.Description = project.Description;
             existingProject.ImageUrl = project.ImageUrl;
             existingProject.ProjectLink = project.ProjectLink;
+            existingProject.GithubLink = project.GithubLink;
             // CreatedAt genellikle değiştirilmez ama istenirse eklenebilir
 
             try

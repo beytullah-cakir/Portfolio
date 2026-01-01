@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 interface ProjectCardProps {
   title: string;
@@ -8,21 +7,34 @@ interface ProjectCardProps {
   link?: string;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({
+const ProjectCard: React.FC<ProjectCardProps & { onClick: () => void }> = ({
   title,
   description,
   bgClass = "project-1-bg", // Default fallback
-  link = "#",
+  onClick,
 }) => {
   return (
-    <article className="project-card">
-      <div className={`project-image ${bgClass}`}></div>
+    <article className="project-card group cursor-pointer" onClick={onClick}>
+      <div
+        className={`project-image ${
+          bgClass.includes("http") ? "bg-cover bg-center" : bgClass
+        }`}
+      >
+        {bgClass.includes("http") && (
+          <img
+            src={bgClass}
+            alt={title}
+            className="w-full h-full object-cover"
+          />
+        )}
+      </div>
       <div className="project-content">
         <h3>{title}</h3>
         <p>{description}</p>
-        <Link to={link || "#"} className="project-link">
-          İncele <i className="fa-solid fa-arrow-right"></i>
-        </Link>
+        <button className="project-link group-hover:text-indigo-400 transition-colors text-left">
+          İncele{" "}
+          <i className="fa-solid fa-arrow-right ml-1 transform group-hover:translate-x-1 transition-transform"></i>
+        </button>
       </div>
     </article>
   );

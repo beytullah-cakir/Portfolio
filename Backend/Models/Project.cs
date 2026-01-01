@@ -16,6 +16,8 @@ namespace PortfolioWebsiteBackend.Models
 
         public string? ProjectLink { get; set; }
 
+        public string? GithubLink { get; set; }
+
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     }
 }

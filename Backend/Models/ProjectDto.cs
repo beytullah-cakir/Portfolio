@@ -8,6 +8,7 @@ namespace PortfolioWebsiteBackend.Models
         string? Description,
         string? ImageUrl,
         string? ProjectLink,
+        string? GithubLink,
         DateTime CreatedAt
     );
 
@@ -15,13 +16,15 @@ namespace PortfolioWebsiteBackend.Models
         [Required] string Title,
         string? Description,
         string? ImageUrl,
-        string? ProjectLink
+        string? ProjectLink,
+        string? GithubLink
     );
 
     public record UpdateProjectDto(
         [Required] string Title,
         string? Description,
         string? ImageUrl,
-        string? ProjectLink
+        string? ProjectLink,
+        string? GithubLink
     );
 }

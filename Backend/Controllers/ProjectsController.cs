@@ -20,7 +20,7 @@ namespace PortfolioWebsiteBackend.Controllers
         {
             var projects = await _projectService.GetAllAsync();
             var dtos = projects.Select(p => new ProjectDto(
-                p.Id, p.Title, p.Description, p.ImageUrl, p.ProjectLink, p.CreatedAt));
+                p.Id, p.Title, p.Description, p.ImageUrl, p.ProjectLink, p.GithubLink, p.CreatedAt));
             return Ok(dtos);
         }
 
@@ -31,7 +31,7 @@ namespace PortfolioWebsiteBackend.Controllers
             if (project == null) return NotFound();
 
             return Ok(new ProjectDto(
-                project.Id, project.Title, project.Description, project.ImageUrl, project.ProjectLink, project.CreatedAt));
+                project.Id, project.Title, project.Description, project.ImageUrl, project.ProjectLink, project.GithubLink, project.CreatedAt));
         }
 
         [HttpPost]
@@ -42,13 +42,14 @@ namespace PortfolioWebsiteBackend.Controllers
                 Title = dto.Title,
                 Description = dto.Description,
                 ImageUrl = dto.ImageUrl,
-                ProjectLink = dto.ProjectLink
+                ProjectLink = dto.ProjectLink,
+                GithubLink = dto.GithubLink
             };
 
             var createdProject = await _projectService.CreateAsync(project);
             
             return CreatedAtAction(nameof(GetById), new { id = createdProject.Id }, new ProjectDto(
-                createdProject.Id, createdProject.Title, createdProject.Description, createdProject.ImageUrl, createdProject.ProjectLink, createdProject.CreatedAt));
+                createdProject.Id, createdProject.Title, createdProject.Description, createdProject.ImageUrl, createdProject.ProjectLink, createdProject.GithubLink, createdProject.CreatedAt));
         }
 
         [HttpPut("{id}")]
@@ -61,6 +62,7 @@ namespace PortfolioWebsiteBackend.Controllers
             project.Description = dto.Description;
             project.ImageUrl = dto.ImageUrl;
             project.ProjectLink = dto.ProjectLink;
+            project.GithubLink = dto.GithubLink;
 
             await _projectService.UpdateAsync(project);
             return NoContent();

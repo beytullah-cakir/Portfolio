@@ -26,6 +26,7 @@ namespace PortfolioWebsiteBackend.Data
                 entity.Property(e => e.ImageUrl).HasColumnName("image_url");
                 entity.Property(e => e.ProjectLink).HasColumnName("project_link");
                 entity.Property(e => e.CreatedAt).HasColumnName("created_at");
+                entity.Property(e => e.GithubLink).HasColumnName("github_link");
             });
         }
     }

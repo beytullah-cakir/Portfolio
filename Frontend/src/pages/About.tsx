@@ -6,87 +6,96 @@ export default function AboutPage() {
     >
       <div className="container mx-auto">
         <h2 className="section-title text-center mb-16">Hakkımda</h2>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="flex flex-col gap-12 items-center">
           {/* Left Side: Text and Skills */}
           <div className="about-content">
             <div className="about-text text-left mb-8">
               <p className="text-lg text-slate-300 mb-6 leading-relaxed">
-                Teknolojiye olan tutkum, karmaşık problemleri basit ve etkili
-                çözümlere dönüştürme isteğimle birleşiyor. Kullanıcı deneyimini
-                ön planda tutarak, hem görsel hem de işlevsel olarak tatmin
-                edici dijital ürünler geliştirmeye odaklanıyorum.
+                Yazılım serüvenime başladığım andan itibaren enerjimin büyük bir kısmını 
+                Unity ile oyun geliştirmeye ayırdım. Oyun mekanikleri üzerine kurgu yapmayı 
+                ve küçük dünyalar inşa etmeyi sevdiğim için vaktimin çoğunu bu alana odaklanarak geçiriyorum.
               </p>
               <p className="text-lg text-slate-300 mb-6 leading-relaxed">
-                Sürekli öğrenen ve gelişen bir yapıya sahibim. Yeni
-                teknolojileri keşfetmek ve bunları projelerimde uygulamak benim
-                için bir yaşam tarzı.
+                Bunun yanında, projelerimin mutfak tarafını da merak ettiğim için backend dünyasına 
+                giriş yaptım; şu an hem ASP.NET Core hem de Python ile backend tarafında işlerin nasıl 
+                yürüdüğünü öğrenmeye çalışıyorum. Ayrıca, veriyi sadece depolanan bir birim değil, 
+                işlenerek akıllı çözümlere dönüşen bir kaynak olarak gördüğüm için Python ile makine 
+                öğrenmesi dünyasına da adımlarımı attım.
               </p>
-              <div className="stats flex gap-8 mb-8">
-                <div className="stat-item">
-                  <span className="stat-number text-3xl font-bold text-indigo-500">
-                    5+
-                  </span>
-                  <span className="stat-label text-sm text-slate-400 block">
-                    Yıl Deneyim
-                  </span>
-                </div>
-                <div className="stat-item">
-                  <span className="stat-number text-3xl font-bold text-indigo-500">
-                    50+
-                  </span>
-                  <span className="stat-label text-sm text-slate-400 block">
-                    Tamamlanan Proje
-                  </span>
-                </div>
-              </div>
+              <p className="text-lg text-slate-300 mb-6 leading-relaxed">
+                Kısacası; ana odağım oyun geliştirmek olsa da, bir sistemin hem arka yüzünü hem de 
+                veriyle nasıl zekileştirilebileceğini anlamaya çalışan, öğrenme merakklı bir geliştiriciyim. 
+                Yeni şeyler denemekten ve projelerimi geliştirmekten keyif alıyorum.
+              </p>
             </div>
 
             {/* Skills embedded under text */}
             <div className="skills-subset">
-              <h3 className="text-xl font-semibold mb-4 text-white">
-                Yetenekler
+              <h3 className="text-xl font-semibold mb-6 text-white border-b border-indigo-500/20 pb-2 inline-block">
+                Teknik Yetenekler
               </h3>
-              <div className="skill-tags flex flex-wrap gap-2 text-sm justify-start">
-                <span className="skill-tag px-3 py-1 rounded-full bg-slate-800 border border-indigo-500/30">
-                  C#
-                </span>
-                <span className="skill-tag px-3 py-1 rounded-full bg-slate-800 border border-indigo-500/30">
-                  ASP.NET Core
-                </span>
-                <span className="skill-tag px-3 py-1 rounded-full bg-slate-800 border border-indigo-500/30">
-                  Unity
-                </span>
-                <span className="skill-tag px-3 py-1 rounded-full bg-slate-800 border border-indigo-500/30">
-                  React.js
-                </span>
-                <span className="skill-tag px-3 py-1 rounded-full bg-slate-800 border border-indigo-500/30">
-                  Next.js
-                </span>
-                <span className="skill-tag px-3 py-1 rounded-full bg-slate-800 border border-indigo-500/30">
-                  TypeScript
-                </span>
-                <span className="skill-tag px-3 py-1 rounded-full bg-slate-800 border border-indigo-500/30">
-                  Docker
-                </span>
-                <span className="skill-tag px-3 py-1 rounded-full bg-slate-800 border border-indigo-500/30">
-                  PostgreSQL
-                </span>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-4">
+                {/* Oyun Geliştirme Card */}
+                <div className="group p-4 rounded-xl bg-slate-800/50 border border-slate-700 hover:border-indigo-500/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(99,102,241,0.15)] hover:bg-slate-800/80">
+                  <h4 className="text-indigo-400 font-medium mb-3 flex items-center gap-2">
+                    <div className="p-1.5 rounded-lg bg-indigo-500/10 group-hover:bg-indigo-500/20 transition-colors">
+                      <div className="w-2 h-2 rounded-full bg-indigo-500 shadow-[0_0_10px_rgba(99,102,241,0.5)]"></div>
+                    </div>
+                    Oyun Geliştirme
+                  </h4>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="px-2 py-1 rounded-md bg-indigo-950/40 border border-indigo-500/20 text-indigo-200 text-xs">
+                      Unity
+                    </span>
+                    <span className="px-2 py-1 rounded-md bg-indigo-950/40 border border-indigo-500/20 text-indigo-200 text-xs">
+                      C#
+                    </span>
+                    
+                  </div>
+                </div>
+
+                {/* Backend Card */}
+                <div className="group p-4 rounded-xl bg-slate-800/50 border border-slate-700 hover:border-emerald-500/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(16,185,129,0.15)] hover:bg-slate-800/80">
+                  <h4 className="text-emerald-400 font-medium mb-3 flex items-center gap-2">
+                    <div className="p-1.5 rounded-lg bg-emerald-500/10 group-hover:bg-emerald-500/20 transition-colors">
+                      <div className="w-2 h-2 rounded-full bg-emerald-500 shadow-[0_0_10px_rgba(16,185,129,0.5)]"></div>
+                    </div>
+                    Backend
+                  </h4>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="px-2 py-1 rounded-md bg-emerald-950/40 border border-emerald-500/20 text-emerald-200 text-xs">
+                      ASP.NET Core
+                    </span>
+                    <span className="px-2 py-1 rounded-md bg-emerald-950/40 border border-emerald-500/20 text-emerald-200 text-xs">
+                      Python
+                    </span>
+                    
+                  </div>
+                </div>
+
+                {/* Yapay Zeka Card */}
+                <div className="group p-4 rounded-xl bg-slate-800/50 border border-slate-700 hover:border-purple-500/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(168,85,247,0.15)] hover:bg-slate-800/80 sm:col-span-2 lg:col-span-1 xl:col-span-2">
+                  <h4 className="text-purple-400 font-medium mb-3 flex items-center gap-2">
+                    <div className="p-1.5 rounded-lg bg-purple-500/10 group-hover:bg-purple-500/20 transition-colors">
+                      <div className="w-2 h-2 rounded-full bg-purple-500 shadow-[0_0_10px_rgba(168,85,247,0.5)]"></div>
+                    </div>
+                    Yapay Zeka
+                  </h4>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="px-2 py-1 rounded-md bg-purple-950/40 border border-purple-500/20 text-purple-200 text-xs">
+                      Machine Learning
+                    </span>
+                    <span className="px-2 py-1 rounded-md bg-purple-950/40 border border-purple-500/20 text-purple-200 text-xs">
+                      Data Analytics
+                    </span>                    
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
-          {/* Right Side: Image Placeholder */}
-          <div className="about-image relative flex justify-center lg:justify-end">
-            <div className="relative w-80 h-96 lg:w-96 lg:h-[30rem]">
-              {/* Decorative Elements */}
-              <div className="absolute inset-0 border-2 border-indigo-500/30 rounded-2xl transform translate-x-4 translate-y-4"></div>
-              <div className="absolute inset-0 bg-slate-800 rounded-2xl overflow-hidden shadow-2xl flex items-center justify-center border border-white/10">
-                <span className="text-slate-600 font-semibold">
-                  Fotoğraf Alanı
-                </span>
-              </div>
-            </div>
-          </div>
+          {/* Image removed as requested */}
         </div>
       </div>
     </section>
