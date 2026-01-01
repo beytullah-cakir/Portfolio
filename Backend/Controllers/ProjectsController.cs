@@ -18,17 +18,10 @@ namespace PortfolioWebsiteBackend.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ProjectDto>>> GetAll()
         {
-            try 
-            {
-                var projects = await _projectService.GetAllAsync();
-                var dtos = projects.Select(p => new ProjectDto(
-                    p.Id, p.Title, p.Description, p.ImageUrl, p.ProjectLink, p.CreatedAt));
-                return Ok(dtos);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"Internal Server Error: {ex.Message} | Inner: {ex.InnerException?.Message}");
-            }
+            var projects = await _projectService.GetAllAsync();
+            var dtos = projects.Select(p => new ProjectDto(
+                p.Id, p.Title, p.Description, p.ImageUrl, p.ProjectLink, p.CreatedAt));
+            return Ok(dtos);
         }
 
         [HttpGet("{id}")]
