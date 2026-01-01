@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "Title": "E-Ticaret Sitesi",
+    "Description": "ASP.NET Core ve React kullanılarak geliştirilmiş, tam kapsamlı bir e-ticaret platformu. Sepet yönetimi, ödeme entegrasyonu ve admin paneli içerir.",
+    "ImageUrl": "https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=1000",
+    "ProjectLink": "https://github.com/example/ecommerce",
+    "CreatedAt": "2025-10-15T10:30:00Z"
+  },
+  {
+    "Id": 2,
+    "Title": "Hava Durumu Uygulaması",
+    "Description": "OpenWeather API kullanarak anlık hava durumu verilerini çeken, modern ve kullanıcı dostu bir arayüz sunan mobil uyumlu web uygulaması.",
+    "ImageUrl": "https://images.unsplash.com/photo-1592210454359-9043f067919b?q=80&w=1000",
+    "ProjectLink": "https://github.com/example/weather-app",
+    "CreatedAt": "2025-11-20T14:45:00Z"
+  },
+  {
+    "Id": 3,
+    "Title": "Kişisel Blog Portalı",
+    "Description": "Markdown desteğine sahip, SEO optimizasyonlu ve hızlı yükleme sürelerine odaklanmış modern bir blog platformu.",
+    "ImageUrl": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=1000",
+    "ProjectLink": "https://github.com/example/blog",
+    "CreatedAt": "2025-12-05T09:15:00Z"
+  }
+]
