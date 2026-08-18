@@ -23,7 +23,7 @@ export default function Admin() {
   const [message, setMessage] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const apiUrl = import.meta.env.VITE_API_BASE_URL || "http://localhost:5055";
+  const apiUrl = import.meta.env.VITE_API_BASE_URL || "http://localhost:3001";
 
   useEffect(() => {
     fetchProjects();
