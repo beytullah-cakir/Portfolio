@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio Website",
+    "description": "Kişisel portföy websitesi. React, TypeScript ve Express.js ile geliştirilmiştir.",
+    "imageUrl": "project-1-bg",
+    "projectLink": null,
+    "githubLink": "https://github.com",
+    "createdAt": "2024-01-15T10:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "title": "E-Commerce App",
+    "description": "Tam özellikli e-ticaret uygulaması. Sepet, ödeme ve admin paneli içerir.",
+    "imageUrl": "project-2-bg",
+    "projectLink": null,
+    "githubLink": "https://github.com",
+    "createdAt": "2024-02-20T08:30:00.000Z"
+  },
+  {
+    "id": 3,
+    "title": "Task Manager",
+    "description": "Sürükle-bırak destekli görev yönetim uygulaması.",
+    "imageUrl": "project-3-bg",
+    "projectLink": null,
+    "githubLink": "https://github.com",
+    "createdAt": "2024-03-10T14:00:00.000Z"
+  }
+]
