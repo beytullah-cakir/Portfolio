@@ -1,29 +1,65 @@
 [
   {
-    "id": 1,
-    "title": "Portfolio Website",
-    "description": "Kişisel portföy websitesi. React, TypeScript ve Express.js ile geliştirilmiştir.",
-    "imageUrl": "project-1-bg",
+    "id": 9,
+    "title": "Color Rush",
+    "description": "Ekranın ortasında dönen renkli çember ile çevreden gelen renkli topların eşleştirmesi üzerine kurulu bir oyun",
+    "imageUrl": null,
     "projectLink": null,
-    "githubLink": "https://github.com",
-    "createdAt": "2024-01-15T10:00:00.000Z"
+    "githubLink": "https://github.com/beytullah-cakir/Color-Rush",
+    "createdAt": "2026-01-01T17:43:13.267Z"
   },
   {
-    "id": 2,
-    "title": "E-Commerce App",
-    "description": "Tam özellikli e-ticaret uygulaması. Sepet, ödeme ve admin paneli içerir.",
-    "imageUrl": "project-2-bg",
+    "id": 8,
+    "title": "Money Clicker",
+    "description": "Ekrana tıklayarak para kazandığınız ve arka planda bazı ödemeleri yönettiğiniz bir clicker oyunu",
+    "imageUrl": null,
     "projectLink": null,
-    "githubLink": "https://github.com",
-    "createdAt": "2024-02-20T08:30:00.000Z"
+    "githubLink": "https://github.com/beytullah-cakir/MoneyClicker",
+    "createdAt": "2026-01-01T17:41:24.365Z"
+  },
+  {
+    "id": 7,
+    "title": "GreenGrocer Simulator",
+    "description": "",
+    "imageUrl": "https://img.itch.zone/aW1nLzIwMTc5MDE5LnBuZw==/315x250%23c/ViEWEk.png",
+    "projectLink": "https://beytullahhcakir.itch.io/greengrocer-simulator",
+    "githubLink": "https://github.com/beytullah-cakir/GreenGrocerSimulator",
+    "createdAt": "2026-01-01T17:39:02.583Z"
+  },
+  {
+    "id": 6,
+    "title": "Undead Survivor: 5 Days",
+    "description": "",
+    "imageUrl": "https://img.itch.zone/aW1nLzIwNTUyMjIwLnBuZw==/315x250%23c/8%2BrZHy.png",
+    "projectLink": "https://beytullahhcakir.itch.io/undead-survivor-5-days",
+    "githubLink": "https://github.com/beytullah-cakir/UndeadSurvivor5Days",
+    "createdAt": "2026-01-01T17:38:28.142Z"
+  },
+  {
+    "id": 5,
+    "title": "My Road Mate",
+    "description": "Bir Gamejam etkinliğinde yaptığımız bir oyun",
+    "imageUrl": "https://img.itch.zone/aW1nLzIwMTE4MjQxLnBuZw==/315x250%23c/fxsLuz.png",
+    "projectLink": "https://beytullahhcakir.itch.io/my-road-mate",
+    "githubLink": "https://github.com/beytullah-cakir/MyRoadMate",
+    "createdAt": "2026-01-01T17:37:43.936Z"
+  },
+  {
+    "id": 4,
+    "title": "Youtube yorumları ile Duygu Analizi",
+    "description": "İstediğiniz Youtube videosunun linkini girip yapay zeka ile yorumlarının duygu analizinin yapıldığı bir site",
+    "imageUrl": null,
+    "projectLink": null,
+    "githubLink": "https://github.com/beytullah-cakir/Sentiment-Analysis-of-YouTube-Comments",
+    "createdAt": "2026-01-01T17:35:07.037Z"
   },
   {
     "id": 3,
-    "title": "Task Manager",
-    "description": "Sürükle-bırak destekli görev yönetim uygulaması.",
-    "imageUrl": "project-3-bg",
-    "projectLink": null,
-    "githubLink": "https://github.com",
-    "createdAt": "2024-03-10T14:00:00.000Z"
+    "title": "Portfolyo Sitesi",
+    "description": "Yaptığım projelere yer verdiğim bir site",
+    "imageUrl": null,
+    "projectLink": "https://beytullah-cakir-portfolio.vercel.app/",
+    "githubLink": "https://github.com/beytullah-cakir/Portfolio",
+    "createdAt": "2026-01-01T17:33:11.145Z"
   }
 ]
