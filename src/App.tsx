@@ -24,7 +24,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
             <Route
-              path={`/${import.meta.env.VITE_ADMIN_KEY}`}
+              path={`/${import.meta.env.VITE_ADMIN_KEY || "admin"}`}
               element={<Admin />}
             />
             <Route path="*" element={<Navigate to="/" replace />} />
