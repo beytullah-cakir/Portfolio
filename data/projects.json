@@ -43,6 +43,24 @@
     "projectLink": "https://beytullahhcakir.itch.io/my-road-mate",
     "githubLink": "https://github.com/beytullah-cakir/MyRoadMate",
     "createdAt": "2026-01-01T17:37:43.936Z"
+  },
+  {
+    "id": 6,
+    "title": "Babamın Mirası",
+    "description": "Babasının ani ölümü üzerine çocukluğunu geçirdiği eski eve dönen kahramanımız, eşyaları toplarken babasının yıllar önce ailesini kurtarmak adına şeytani bir varlıkla karanlık bir anlaşma yaptığını ve bu borcun bedeli olarak ruhunu eve hapsettiğini keşfeder; vasiyetnamenin okunmasıyla birlikte evin tüm çıkışları mühürlenirken, oyuncu hem babasının ruhunu bu ebedi azaptan kurtarmak hem de kendi hayatını bu kadim lanetten korumak için evin dört bir yanına gizlenmiş lanetli objeleri bulup arındırarak varlığın oyunlarını bozmak ve şafak sökmeden bu canlı hapishaneden kaçmak zorundadır.",
+    "imageUrl": "https://img.itch.zone/aW1nLzI3MTI3ODI3LmpwZw==/315x250%23c/hDgBTN.jpg",
+    "projectLink": "https://beytullahhcakir.itch.io/babamin-mirasi",
+    "githubLink": "https://github.com/beytullah-cakir/HorrorGame",
+    "createdAt": "2026-01-01T17:37:43.936Z"
+  },
+  {
+    "id": 7,
+    "title": "Staj Projesi",
+    "description": "Zorunlu yaz stajımda başladığım ve temel mekaniklerini kodladığım bir macera-bulmaca oyunu",
+    "imageUrl": null,
+    "projectLink": null,
+    "githubLink": "https://github.com/beytullah-cakir/SteamGame",
+    "createdAt": "2026-01-01T17:37:43.936Z"
   }
   
 ]
