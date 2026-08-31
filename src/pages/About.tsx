@@ -16,20 +16,6 @@ export default function AboutPage() {
                 Unity ile oyun geliştirmeye ayırdım. Oyun mekanikleri üzerine kurgu yapmayı
                 ve küçük dünyalar inşa etmeyi sevdiğim için vaktimin çoğunu bu alana odaklanarak geçiriyorum.
               </p>
-
-              <p className="text-lg text-slate-300 mb-6 leading-relaxed">
-                Bunun yanında, projelerimin mutfak tarafını da merak ettiğim için backend dünyasına
-                giriş yaptım; şu an hem ASP.NET Core hem de Python ile backend tarafında işlerin nasıl
-                yürüdüğünü öğrenmeye çalışıyorum. Ayrıca, veriyi sadece depolanan bir birim değil,
-                işlenerek akıllı çözümlere dönüşen bir kaynak olarak gördüğüm için Python ile makine
-                öğrenmesi dünyasına da adımlarımı attım.
-              </p>
-
-              <p className="text-lg text-slate-300 mb-6 leading-relaxed">
-                Kısacası; ana odağım oyun geliştirmek olsa da, bir sistemin hem arka yüzünü hem de
-                veriyle nasıl zekileştirilebileceğini anlamaya çalışan, öğrenme meraklı bir geliştiriciyim.
-                Yeni şeyler denemekten ve projelerimi geliştirmekten keyif alıyorum.
-              </p>
             </div>
           </div>
         </div>
