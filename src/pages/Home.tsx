@@ -37,8 +37,7 @@ export default function Home() {
           </h1>
 
           <p className="text-lg text-slate-400 mb-10 max-w-2xl leading-relaxed">
-            Backend mimarisi, makine öğrenmesi ve oyun geliştirme odağında;
-            ölçeklenebilir ve sürükleyici dijital çözümler üretmeyi hedefliyorum.
+           Oyun geliştirme odağında kendimi geliştirmeyi ve bilgilerimi kullanarak üretmeyi hedefliyorum.
           </p>
 
           {/* CTA Buttons */}
